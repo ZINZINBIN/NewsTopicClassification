@@ -7,9 +7,11 @@
 ### 전처리
 - konlpy 라이브러리 Kkma를 이용하여 전처리 진행 : 영어, 한자를 포함한 명사만 추출
 - 토큰화: 케라스 토크나이저 이용
+- kobert 모델은 제공된 tokenizer를 이용
 
 ### 모델
 - embedding layer + bidirectional LSTM stacked structure
 - Attention Layer(Encoder) + LSTM
 - Transformer(Encoder) 
 - BERT model from tensorflow
+- Klue-Roberta-large model from pytorch
